@@ -1,0 +1,14 @@
+Gravatar library for CodeIgniter
+Forked from Codeigniter-Gravatar by Ryan Marshall
+This project is a specific-use fork of https://github.com/rsmarshall/Codeigniter-Gravatar with a few changes to ease our own use of the library.  It is in no way intended to be the primary public library for its function but is available for free public use if it better suits anybody's needs as it does ours.  Note that the only fix implemented by this fork is also in the originating repository which is probably more likely to promptly maintain code going forward.
+The only remaining change is for structural organization to ease our use of the code but should not be considered a fix.
+If you wish to use this library, please feel free, but this code is distributed with no guarantee and no intent to be the primary publicly available version.
+
+To use simply load the library as usual in your controller
+
+$this->load->library('gravatar/gravatar');
+
+After this you can call any of the functions such as :
+
+$this->gravatar->get_gravatar('emailhere');
+
